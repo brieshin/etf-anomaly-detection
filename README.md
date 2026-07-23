@@ -80,7 +80,7 @@ This was a tested decision, not an oversight. `evaluate.run_case4_sensitivity_ch
 reproduces the sensitivity analysis: including Case 4 in the ground truth
 reduces the LSTM Autoencoder's F1 advantage over Isolation Forest from
 0.139 to 0.069, and its AU-ROC advantage from 0.034 to 0.010, because Case
-4 — like Case 3 — is an event the model largely fails to detect. See
+4, like Case 3 is an event the model largely fails to detect. See
 Chapter 6.3.2 of the dissertation for the full discussion.
 
 ## Key finding
